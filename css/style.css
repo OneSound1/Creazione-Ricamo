@@ -26,6 +26,15 @@
 }
 
 
+.myLink:hover {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+
+.myLink {
+  color: white;
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -154,6 +163,9 @@
     }
 }
 
+@media (min-width: 450px) {
+  
+}
 
 /*** Header ***/
 .header-carousel .owl-carousel-text {
