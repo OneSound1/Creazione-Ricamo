@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0463fa;/* #0463fa */
+    --primary: rgb(255, 162, 0);/* #0463fa */
     --light: #EFF5FF;
     --dark: #1B2C51;
 }
@@ -27,12 +27,24 @@
 
 
 .myLink:hover {
-  color: cornflowerblue;
+  color: var(--primary);
   text-decoration: underline;
 }
 
 .myLink {
   color: white;
+}
+
+.my-text-primary {
+  color: var(--primary);
+}
+
+.my-bg-primary {
+  background: var(--primary);
+}
+
+.my-btn-primary {
+  background: var(--primary);
 }
 
 /*** Spinner ***/
