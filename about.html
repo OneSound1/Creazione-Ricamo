@@ -79,34 +79,32 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h1 class="m-0 text-primary"><i class="fa fa-house me-3"></i> Creazione Ricamo</h1>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link active">Chi Siamo</a>
-                <a href="service.html" class="nav-item nav-link">Servizi</a>
-                <!-- <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pagine</a>
-                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
-                        <a href="feature.html" class="dropdown-item">Feature</a>
-                        <a href="team.html" class="dropdown-item">Our Doctor</a>
-                        <a href="appointment.html" class="dropdown-item">Appointment</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div> -->
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contatti</a>
-            <!-- </div>
-            <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Appointment<i class="fa fa-arrow-right ms-3"></i></a>
-        </div> -->
-    </nav>
-    <!-- Navbar End -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+    <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <h1 class="m-0 text-primary"><i class="fa fa-house me-3"></i> Creazione Ricamo</h1>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="about.html" class="nav-item nav-link">Chi Siamo</a>
+            <div class="nav-item dropdown d-flex align-items-center">
+                <!-- Link a "Servizi" separato dal pulsante per il dropdown -->
+                <a href="service.html" class="nav-link">Servizi</a>
+                <button class="btn dropdown-toggle" type="button" id="servicesDropdownButton" data-bs-toggle="dropdown" aria-expanded="false"></button>
+                <ul class="dropdown-menu" aria-labelledby="servicesDropdownButton">
+                    <li><a class="dropdown-item" href="ricamo.html">Ricamo</a></li>
+                    <li><a class="dropdown-item" href="DTF.html">DTF</a></li>
+                    <li><a class="dropdown-item" href="sublimatico.html">Sublimatico</a></li>
+                    <li><a class="dropdown-item" href="vinile.html">Vinile</a></li>
+                    <li><a class="dropdown-item" href="serigrafia.html">Serigrafia</a></li>
+                </ul>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contatti</a>
+</nav>
+<!-- Navbar End -->
 
 
     <!-- Page Header Start -->
