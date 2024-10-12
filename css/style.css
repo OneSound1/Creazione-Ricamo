@@ -25,6 +25,11 @@
     z-index: 99;
 }
 
+/*** MY modifiche ***/
+
+.my-color {
+  color: var(--primary) !important;
+}
 
 .myLink:hover {
   color: var(--primary);
@@ -45,6 +50,11 @@
 
 .my-btn-primary {
   background: var(--primary);
+  color: white;
+}
+
+.my-btn-primary:hover {
+  color: white;
 }
 
 /*** Spinner ***/
