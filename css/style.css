@@ -3,6 +3,7 @@
     --primary: rgb(47, 169, 240);/* #0463fa */
     --light: #EFF5FF;
     --dark: #1B2C51;
+    --grigio: #989495;
 }
 
 .fw-medium {
@@ -42,6 +43,10 @@
 
 .my-text-primary {
   color: var(--primary);
+}
+
+.my-text-grigio {
+    color: var(--grigio);
 }
 
 .my-bg-primary {
