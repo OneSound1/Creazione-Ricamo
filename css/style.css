@@ -316,6 +316,12 @@
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
 
+.page-header-strass {
+    background: url(../img/header-page-strass.jpg) top center no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
 }
