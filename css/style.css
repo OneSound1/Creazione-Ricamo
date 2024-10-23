@@ -519,7 +519,7 @@
     transform: translateX(-50%);
     display: flex;
     justify-content: space-between;
-    opacity: 0;
+    opacity: 1;
     transition: .5s;
     z-index: 1;
 }
